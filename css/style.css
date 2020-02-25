@@ -1,0 +1,117 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#newsweek-header {
+    display: contents;
+    width: 100%;
+    position: relative;
+    background-color: red;
+    overflow-x: hidden;
+}
+
+.header-logo {
+    width: 140px;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.logo svg {
+    fill: white;
+    width: 138px;
+    height: 15px;
+    margin: 10px auto 0;
+    display: block;
+}
+
+.logocol {
+    background-color: cyan;
+}
+
+.header-up {
+    height: 95px;
+    background-color: red;
+    padding: 20px 10px 15px;
+}
+
+.datecol {
+    background-color: red;
+    color: white;
+}
+
+.subscribecol {
+    margin-right: 15px;
+}
+
+.datecol {
+    display: none;
+}
+
+.signin {
+    color: white;
+    font-size: larger;
+    margin-right: 6px;
+}
+
+
+
+  /* Top Story */
+
+ 
+  @media screen and (min-width: 992px){
+    .header-logo {
+        width: 400px;
+        position: absolute;
+        top: 5px;
+        left: calc(100%/2 - 200px);
+    }
+
+    .datecol {
+        display: block;
+    }
+    
+    .logo svg {
+        fill: white;
+        width: 396px;
+        height: 60px;
+        margin: 10px auto 0;
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+    #headernav::before {
+        width: 66px;
+    }
+    
+    #headernav::before {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        content: "";
+        display: block;
+        width: 129px;
+        background-color: #f72210;
+        border-left: 12px solid white;
+        border-top: 13px solid red;
+    }
+
+    #collapsemenu {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    #mnuBtn {
+        display: none;
+    }
+
+    .navbar-nav li {
+        font-size: 14px;;
+    }
+    }
+    
