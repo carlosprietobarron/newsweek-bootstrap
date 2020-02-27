@@ -246,3 +246,43 @@ body{
     border-bottom: gray 1px solid;
   }
   
+  /* debate */
+
+.redparty {
+    width: inherit;
+    position: relative;
+    padding-top: 15px;
+    border-top: solid 3px rgb(240, 46, 55);
+  }
+  
+  .redparty .card-horizontal {
+    margin-bottom: 15px;
+  }
+  
+  .redparty .circle-img {
+    width: 100%;
+    position: relative;
+    top: -15px;
+  }
+  
+  .card-footer-debate {
+    border-top: double gray 3px;
+  }
+  
+  .blueparty {
+    width: inherit;
+    position: relative;
+    padding-top: 15px;
+    border-top: solid 3px rgb(53, 152, 233);
+  }
+  
+  .blueparty .card-horizontal {
+    margin-bottom: 15px;
+  }
+  
+  .blueparty .circle-img {
+    width: 100%;
+    position: relative;
+    top: -15px;
+  }
+  
