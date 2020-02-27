@@ -339,3 +339,116 @@ body{
     margin-top: 30px;
   }
   
+  .section-us {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: start;
+    border-top: gray solid 2px;
+    color: red;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+  }
+  
+  .icon-red {
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+  }
+  
+  .facade .image {
+    display: inline-block;
+    overflow: hidden;
+    background-color: white;
+    margin: -45px;
+    width: 300px;
+    height: 410px;
+  }
+  
+  .facade .img {
+    width: 400px;
+    position: relative;
+    left: -0;
+  }
+  
+  .magazine-card {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .magazine-card .image {
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+    margin: -45px;
+  }
+  
+  .magazine-card img {
+    width: 400px;
+    position: relative;
+    left: -0;
+  }
+  
+  .magazine-card .badge {
+    background-color: #ee120b;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 20%;
+    max-width: 50%;
+  }
+  
+  .magazine-card .sec {
+    background-color: #ffffff;
+    color: rgb(245, 8, 8);
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    /* top: -45px;
+      left: 0; */
+    width: 20%;
+    max-width: 25%;
+  }
+  
+  .editors {
+    margin-top: 30px;
+  }
+  
+  .counting {
+    width: 70px;
+    height: 52px;
+    display: block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-indent: 5px;
+    line-height: 55px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #b80813;
+  }
+  
+  .image-us img {
+    width: 100%;
+  }
+  
+  .subsdiv {
+    width: 99%;
+    height: 301px;
+    background-color: rgb(148, 161, 179);
+  }
+  
+  .subscribe-cards {
+    background-color: transparent;
+    padding-top: 55px;
+  }
+  
