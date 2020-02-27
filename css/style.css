@@ -286,3 +286,56 @@ body{
     top: -15px;
   }
   
+  /* latest news */
+
+.latest-news {
+    margin-bottom: 30px;
+  }
+  
+  .latest {
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 1px gray solid;
+    margin-bottom: 15px;
+  }
+  
+  .latest .square-img {
+    width: 95%;
+  }
+  
+  
+  /* opinion */
+  
+  .card-horizontal h5 {
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: .8rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .card-horizontal p {
+    font-size: x-small;
+  }
+  
+  
+  /* magazine */
+  
+  .header-mag {
+      background-color: white;
+  }
+  .section-logo {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: gray solid 2px;
+    margin-bottom: 25px;
+    background-color: white;
+  }
+  
+  .us-news-section {
+    margin-top: 30px;
+  }
+  
