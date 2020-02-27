@@ -78,3 +78,38 @@ body{
     background-color: rgb(184, 62, 13);
     border-color: rgb(11, 40, 102);
   }
+
+  .nav-item a {
+    color: black;
+    font-weight: 800;
+    padding: 8px 8px;
+  }
+  
+  ul.navbar-nav li:not(:first-child)::marker {
+    content: "|";
+    color: grey;
+  }
+  
+  .social-nav li {
+    padding: 0 10px;
+    font-size: 18px!important;
+  }
+  
+  .nav-item input {
+    height: 25px;
+    padding: 5px;
+    width: 80px;
+    margin-left: 150px;
+  }
+  
+  .search-frm input {
+    border: none;
+    width: 65px;
+  }
+  
+  #mnuBtn {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    color: white;
+  }
