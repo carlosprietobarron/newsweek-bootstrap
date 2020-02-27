@@ -113,3 +113,122 @@ body{
     top: 50px;
     color: white;
   }
+
+  /* scrollable */
+
+.scrollable {
+    height: 3370px;
+    overflow-y: hidden;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    scrollbar-width: 0;
+    -ms-overflow-style: none;
+  }
+  
+  .scrollable ::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .no-scrollable {
+    position: relative;
+    top: 0;
+    bottom: 0;
+  }
+  
+  
+  /* Central news sect Top Story */
+  
+  .main-news {
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 3370px;
+  }
+  
+  .mainstories {
+    height: 100%;
+  }
+  
+  .section-name h3 {
+    font-size: 1rem;
+    font-family: Roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(163, 163, 167);
+  }
+  
+  .section-blue {
+    /* border-bottom: gray 1px solid; */
+    margin-left: 60px;
+  }
+  
+  .section-blue h3 {
+    font-size: 1rem;
+    font-family: Roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(10, 110, 241);
+  }
+  
+  .culture-travel-card .badge {
+    background-color: #83817e;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 20%;
+    max-width: 25%;
+  }
+  
+  .featured-card {
+    position: relative;
+  }
+  
+  .featured-card .badge {
+    background-color: #f0a330;
+    color: rgb(4, 19, 48);
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    top: -19px;
+    left: 0;
+    width: 40%;
+    max-width: 25%;
+  }
+  
+  .blueInsight-card .badge {
+    background-color: #97989b;
+    color: rgb(11, 95, 163);
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    top: -19px;
+    left: 0;
+    width: 50%;
+    max-width: 75%;
+  }
+  
+  .featured-card h4 {
+    font-size: 1.2rem;
+  }
+  
+  .featured-card p {
+    font-size: 0.9rem;
+  }
+  
+  .top-story-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .top-story-card p {
+    font-size: 1rem;
+  }
+  
+  .card-horizontal .card-body {
+    margin-bottom: -10px;
+  }
+  
+  .opinion-row {
+    margin-bottom: 25px;
+  }
