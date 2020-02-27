@@ -4,3 +4,77 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#newsweek-header {
+    display: contents;
+    width: 100%;
+    position: relative;
+    background-color: red;
+    overflow-x: hidden;
+  }
+  
+  .header-logo {
+    width: 140px;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+  }
+  
+  .logo svg {
+    fill: white;
+    width: 138px;
+    height: 15px;
+    margin: 10px auto 0;
+    display: block;
+  }
+  
+  .logo-footer svg {
+    fill: red;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .logocol {
+    background-color: cyan;
+  }
+  
+  .header-up {
+    height: 95px;
+    background-color: red;
+    padding: 20px 10px 15px;
+  }
+  
+  .datecol {
+    background-color: red;
+    color: white;
+  }
+  
+  .subscribecol {
+    margin-right: 15px;
+  }
+  
+  .datecol {
+    display: none;
+  }
+  
+  .signin {
+    color: white;
+    font-size: larger;
+    margin-right: 6px;
+  }
+  
+  .candas-btn {
+    color: red;
+    background-color: white;
+    border: none;
+    font-size: larger;
+  }
+  
+  .candas-btn:hover,
+  .candas-btn:focus,
+  .candas-btn:active,
+  .candas-btn.active,
+  .open .dropdown-toggle.candas-btn {
+    color: rgb(10, 36, 121);
+    background-color: rgb(184, 62, 13);
+    border-color: rgb(11, 40, 102);
+  }
