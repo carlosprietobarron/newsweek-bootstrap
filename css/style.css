@@ -232,3 +232,17 @@ body{
   .opinion-row {
     margin-bottom: 25px;
   }
+  
+  .opinion {
+    padding-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .insight-title {
+    border: none;
+    border-bottom: gray 1px solid;
+  }
+  
