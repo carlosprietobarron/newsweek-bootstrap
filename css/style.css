@@ -452,3 +452,126 @@ body{
     padding-top: 55px;
   }
   
+
+  .subscribe-cards .img-square-wrapper {
+    width: 35%;
+    overflow: hidden;
+  }
+  
+  .subscribe-cards img {
+    width: 166px;
+  }
+  
+  .newsletter {
+    width: 99%;
+    height: 301px;
+    background-color: transparent;
+  }
+  
+  .newsletter-cards {
+    background-color: transparent;
+  }
+  
+  .editions {
+      align-content: center;
+  }
+  
+  .ul-editions {
+      padding-top: 5px;
+      margin-left: 5px;
+  }
+  
+  .ft-ul {
+      margin-left: 20px;
+  }
+  
+  .ft-ul a{
+      font-size: 1rem;
+  }
+  
+  .ft-last {
+      margin-left: 5px;
+      flex-wrap: wrap;
+  }
+  
+  .ft-last a{
+      font-size: 1rem;
+  }
+  
+  .ft-link {
+    font-weight: 400;
+    padding: 0 10px;
+  }
+  
+  .ft-link a {
+    font-weight: 400;
+  }
+  
+  .newsletter-cards .img-square-wrapper {
+    width: 130%;
+    height: 301px;
+    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+  }
+  
+  .newsletter-cards img {
+    width: 166px;
+  }
+  
+  .page-footer {
+    margin-top: 30px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .header-logo {
+      width: 400px;
+      position: absolute;
+      top: 5px;
+      left: calc(100%/2 - 200px);
+    }
+    .datecol {
+      display: block;
+    }
+    .logo svg {
+      fill: white;
+      width: 396px;
+      height: 60px;
+      margin: 10px auto 0;
+      display: block;
+    }
+    .hamburger {
+      display: none;
+    }
+    #headernav::before {
+      width: 66px;
+    }
+    #headernav::before {
+      position: absolute;
+      top: 0px;
+      right: 0;
+      content: "";
+      display: block;
+      width: 129px;
+      background-color: #f72210;
+      border-left: 12px solid white;
+      border-top: 13px solid red;
+    }
+    .rowheight {
+      height: 3000px;
+      overflow-y: hidden;
+    }
+    #collapsemenu {
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+    #mnuBtn {
+      display: none;
+    }
+    .navbar-nav li {
+      font-size: 14px;
+      ;
+    }
+  }
+  
