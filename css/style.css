@@ -46,14 +46,11 @@ body {
 .datecol {
   background-color: red;
   color: white;
+  display: none;
 }
 
 .subscribecol {
   margin-right: 15px;
-}
-
-.datecol {
-  display: none;
 }
 
 .signin {
@@ -158,6 +155,7 @@ ul.navbar-nav li:not(:first-child)::marker {
 
 .mainstories {
   height: 100%;
+  order: 1;
 }
 
 .section-name h3 {
@@ -302,7 +300,6 @@ ul.navbar-nav li:not(:first-child)::marker {
 }
 
 .latest {
-  margin-bottom: 15px;
   border: 0;
   border-bottom: 1px gray solid;
   margin-bottom: 15px;
@@ -550,10 +547,6 @@ ul.navbar-nav li:not(:first-child)::marker {
   order: 2;
 }
 
-.mainstories {
-  order: 1;
-}
-
 .sideright {
   order: 3;
 }
@@ -616,7 +609,7 @@ footer {
     width: 400px;
     position: absolute;
     top: 5px;
-    left: calc(100%/2 - 200px);
+    left: calc(100% / 2 - 200px);
   }
 
   .datecol {
@@ -637,9 +630,6 @@ footer {
 
   #headernav::before {
     width: 66px;
-  }
-
-  #headernav::before {
     position: absolute;
     top: 0;
     right: 0;
