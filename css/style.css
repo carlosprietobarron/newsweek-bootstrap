@@ -635,7 +635,6 @@ footer {
     right: 0;
     content: "";
     display: block;
-    width: 129px;
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid red;
