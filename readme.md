@@ -1,17 +1,17 @@
-# Apple.com Page Clone
+# Newsweek Page Clone
 
-> This is the project for creating a site using gradients and backgrounds-
+> This is the project for creating a site using bootstrap (solo project)
 
 ## Built With
 
 - HTML
 - fontawesome
 - CSS
-- Graadients and Backgrounds
+- Bootstrap 4
 
 ## Live Demo
 
-
+https://rawcdn.githack.com/carlosprietobarron/newsweek-bootstrap/0b458b9f54297185e111eabe93a4cbc378de8c13/index.html
 
 
 ## Authors
