@@ -467,18 +467,20 @@ ul.navbar-nav li:not(:first-child)::marker {
 }
 
 .subscribe-cards .card-horizontal-more {
+  flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 
 .subscribe-cards .img-square-wrapper {
-  width: 35%;
+  width: 20%;
   overflow: hidden;
 }
 
 .subscribe-cards img {
-  width: 80%;
+  width: 30%;
   margin: 0 auto;
-  min-width: 166px;
+  min-width: 85px;
 }
 
 .newsletter {
@@ -578,6 +580,23 @@ footer {
 
   .card-horizontal-more.card-body {
     flex-shrink: 5;
+  }
+
+  .subscribe-cards .card-horizontal-more {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+  }
+
+  .subscribe-cards .img-square-wrapper {
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .subscribe-cards img {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 166px;
   }
 }
 
