@@ -82,14 +82,14 @@ body {
   padding: 8px 8px;
 }
 
-ul.navbar-nav li:not(:first-child)::marker {
-  content: "|";
-  color: grey;
+.uppernav {
+  padding: 0 8px;
+  font-size: 1rem;
 }
 
-.social-nav li {
-  padding: 0 10px;
-  font-size: 18px !important;
+.uppernav:not(:first-child)::marker {
+  content: "|";
+  color: grey;
 }
 
 .nav-item input {
@@ -176,6 +176,10 @@ ul.navbar-nav li:not(:first-child)::marker {
   color: rgb(10, 110, 241);
 }
 
+.culture-travel-card {
+  border: none;
+}
+
 .culture-travel-card .badge {
   background-color: #83817e;
   color: rgb(12, 12, 12);
@@ -190,6 +194,7 @@ ul.navbar-nav li:not(:first-child)::marker {
 
 .featured-card {
   position: relative;
+  border: none;
 }
 
 .featured-card .badge {
@@ -202,6 +207,10 @@ ul.navbar-nav li:not(:first-child)::marker {
   left: 0;
   width: 40%;
   max-width: 25%;
+}
+
+.blueInsight-card {
+  border: none;
 }
 
 .blueInsight-card .badge {
@@ -222,6 +231,10 @@ ul.navbar-nav li:not(:first-child)::marker {
 
 .featured-card p {
   font-size: 0.9rem;
+}
+
+.top-story-card {
+  border: none;
 }
 
 .top-story-card h3 {
@@ -309,6 +322,12 @@ ul.navbar-nav li:not(:first-child)::marker {
   width: 95%;
 }
 
+.more-story-cards {
+  border: none;
+}
+
+
+
 /* opinion */
 
 .card-horizontal h5 {
@@ -333,6 +352,11 @@ ul.navbar-nav li:not(:first-child)::marker {
 
 .header-mag {
   background-color: white;
+}
+
+.logomag {
+  background: white;
+  margin-top: 5rem;
 }
 
 .section-logo {
@@ -362,6 +386,7 @@ ul.navbar-nav li:not(:first-child)::marker {
   align-items: center;
   justify-content: start;
   border-top: gray solid 2px;
+  padding-top: 15px;
   color: red;
   font-size: 1.3rem;
   margin-bottom: 25px;
@@ -394,6 +419,7 @@ ul.navbar-nav li:not(:first-child)::marker {
 .magazine-card {
   margin: 0;
   padding: 0;
+  border: none;
   overflow: hidden;
 }
 
@@ -558,6 +584,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .uppernav::marker {
+    content: "|";
+    color: grey;
+  }
+
   .sideleft {
     order: 2;
   }
@@ -605,11 +636,16 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    height: 3370px;
+    height: 3460px;
+    overflow: hidden;
   }
 
   .sideleft {
     order: 1;
+  }
+
+  .lastfeatured {
+    display: none;
   }
 
   .mainstories {
@@ -622,6 +658,7 @@ footer {
 
   p.card-text.more-story-text {
     display: inherit;
+    line-height: 22px;
   }
 
   .header-logo {
@@ -667,6 +704,7 @@ footer {
   #collapsemenu {
     flex-direction: row-reverse;
     justify-content: flex-end;
+    margin-left: 2rem;
   }
 
   #mnuBtn {
