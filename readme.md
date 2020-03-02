@@ -11,10 +11,7 @@
 
 ## Live Demo
 
-https://rawcdn.githack.com/carlosprietobarron/newsweek-bootstrap/b5bea5b8856590255c4646af52e10fdf971d50d7/index.html
-
-
-## Authors
+https://rawcdn.githack.com/carlosprietobarron/newsweek-bootstrap/e6426fb7ce707718ccb135835c148c40b6ad28c2/index.html
 
 👤 Carlos Prieto Barron
 
