@@ -364,7 +364,8 @@ body {
   align-items: center;
   justify-content: center;
   border-bottom: gray solid 2px;
-  margin-bottom: 25px;
+  border: none;
+  margin-bottom: 45px;
   background-color: white;
 }
 
@@ -581,6 +582,15 @@ footer {
   display: inline;
 }
 
+i.fab {
+  padding: 0 10px;
+}
+
+.fab {
+  font-size: 2rem;
+  color: gray;
+}
+
 @media (min-width: 768px) {
   .uppernav::marker {
     content: "|";
@@ -609,6 +619,10 @@ footer {
 
   .card-horizontal-more.card-body {
     flex-shrink: 5;
+  }
+
+  .section-logo {
+    border-bottom: gray solid 2px;
   }
 
   .subscribe-cards .card-horizontal-more {
