@@ -1,6 +1,6 @@
 # Newsweek Page Clone
 
-> This is the project for creating a site using bootstrap (solo project)
+> A simple Newsweek clone page project, to develop this page I used Bootstrap 4.  It's porpuse was to explore and harness Bootstrap 4 power to build styled web pages.
 
 ## Built With
 
